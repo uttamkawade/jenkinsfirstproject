@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 407.709 s <<< FAILURE! - in TestSuite
+mavenFirstproject1.Testdashboard.verifyTableOfficial  Time elapsed: 159.214 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Remote browser did not respond to getCurrentUrl
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0T7VIK', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+	at mavenFirstproject1.Testdashboard.verifyTableOfficial(Testdashboard.java:105)
+

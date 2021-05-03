@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34386" started-at="2021-05-01T06:13:05Z" finished-at="2021-05-01T06:13:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27169" started-at="2021-05-01T06:13:05Z" finished-at="2021-05-01T06:13:32Z">
+      <class name="mavenFirstproject1.Logintest">
+        <test-method status="PASS" signature="login()[pri:0, instance:mavenFirstproject1.Logintest@5c7fa833]" name="login" duration-ms="27092" started-at="2021-05-01T11:43:05Z" finished-at="2021-05-01T11:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- mavenFirstproject1.Logintest -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="7136" started-at="2021-05-01T06:13:33Z" finished-at="2021-05-01T06:13:40Z">
+      <class name="mavenFirstproject1.Logintest2">
+        <test-method status="PASS" signature="login1()[pri:0, instance:mavenFirstproject1.Logintest2@3532ec19]" name="login1" duration-ms="7136" started-at="2021-05-01T11:43:33Z" finished-at="2021-05-01T11:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- mavenFirstproject1.Logintest2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

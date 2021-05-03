@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="408121" started-at="2021-05-03T06:08:01Z" finished-at="2021-05-03T06:14:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="101262" started-at="2021-05-03T06:08:01Z" finished-at="2021-05-03T06:09:43Z">
+      <class name="mavenFirstproject1.Logintest">
+        <test-method status="PASS" signature="login()[pri:0, instance:mavenFirstproject1.Logintest@52af6cff]" name="login" duration-ms="76819" started-at="2021-05-03T11:38:01Z" finished-at="2021-05-03T11:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- mavenFirstproject1.Logintest -->
+      <class name="mavenFirstproject1.Logintest3">
+        <test-method status="PASS" signature="login()[pri:0, instance:mavenFirstproject1.Logintest3@1936f0f5]" name="login" duration-ms="24396" started-at="2021-05-03T11:39:18Z" finished-at="2021-05-03T11:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- mavenFirstproject1.Logintest3 -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="306295" started-at="2021-05-03T06:09:43Z" finished-at="2021-05-03T06:14:49Z">
+      <class name="mavenFirstproject1.Testdashboard">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="openbrowser" is-config="true" duration-ms="24093" started-at="2021-05-03T11:39:54Z" finished-at="2021-05-03T11:40:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifyTable32bit()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="verifyTable32bit" duration-ms="4495" started-at="2021-05-03T11:40:18Z" finished-at="2021-05-03T11:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTable32bit -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="closebrowser" is-config="true" duration-ms="1782" started-at="2021-05-03T11:40:22Z" finished-at="2021-05-03T11:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="openbrowser" is-config="true" duration-ms="17869" started-at="2021-05-03T11:40:24Z" finished-at="2021-05-03T11:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifyTable32bit1()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="verifyTable32bit1" duration-ms="376" started-at="2021-05-03T11:40:42Z" finished-at="2021-05-03T11:40:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTable32bit1 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="closebrowser" is-config="true" duration-ms="820" started-at="2021-05-03T11:40:42Z" finished-at="2021-05-03T11:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="openbrowser" is-config="true" duration-ms="18147" started-at="2021-05-03T11:40:43Z" finished-at="2021-05-03T11:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifyTable64bit()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="verifyTable64bit" duration-ms="7326" started-at="2021-05-03T11:41:01Z" finished-at="2021-05-03T11:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTable64bit -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="closebrowser" is-config="true" duration-ms="854" started-at="2021-05-03T11:41:08Z" finished-at="2021-05-03T11:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="openbrowser" is-config="true" duration-ms="21577" started-at="2021-05-03T11:41:09Z" finished-at="2021-05-03T11:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="FAIL" signature="verifyTableOfficial()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="verifyTableOfficial" duration-ms="159201" started-at="2021-05-03T11:41:31Z" finished-at="2021-05-03T11:44:10Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Remote browser did not respond to getCurrentUrl
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0T7VIK', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Remote browser did not respond to getCurrentUrl
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-S0T7VIK', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:289)
+	at mavenFirstproject1.Testdashboard.verifyTableOfficial(Testdashboard.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableOfficial -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="closebrowser" is-config="true" duration-ms="1271" started-at="2021-05-03T11:44:10Z" finished-at="2021-05-03T11:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="openbrowser" is-config="true" duration-ms="10445" started-at="2021-05-03T11:44:11Z" finished-at="2021-05-03T11:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifyTableOfficial1()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="verifyTableOfficial1" duration-ms="398" started-at="2021-05-03T11:44:22Z" finished-at="2021-05-03T11:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTableOfficial1 -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="closebrowser" is-config="true" duration-ms="855" started-at="2021-05-03T11:44:22Z" finished-at="2021-05-03T11:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="openbrowser" is-config="true" duration-ms="4458" started-at="2021-05-03T11:44:23Z" finished-at="2021-05-03T11:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifyTablecommon()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="verifyTablecommon" duration-ms="2706" started-at="2021-05-03T11:44:28Z" finished-at="2021-05-03T11:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTablecommon -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="closebrowser" is-config="true" duration-ms="717" started-at="2021-05-03T11:44:30Z" finished-at="2021-05-03T11:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="openbrowser" is-config="true" duration-ms="4238" started-at="2021-05-03T11:44:31Z" finished-at="2021-05-03T11:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="TestTable()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="TestTable" duration-ms="6027" started-at="2021-05-03T11:44:35Z" finished-at="2021-05-03T11:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTable -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="closebrowser" is-config="true" duration-ms="775" started-at="2021-05-03T11:44:41Z" finished-at="2021-05-03T11:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="openbrowser" is-config="true" duration-ms="4927" started-at="2021-05-03T11:44:42Z" finished-at="2021-05-03T11:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="verifyFooter()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="verifyFooter" duration-ms="1700" started-at="2021-05-03T11:44:47Z" finished-at="2021-05-03T11:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:mavenFirstproject1.Testdashboard@5afa04c]" name="closebrowser" is-config="true" duration-ms="716" started-at="2021-05-03T11:44:49Z" finished-at="2021-05-03T11:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- mavenFirstproject1.Testdashboard -->
+      <class name="mavenFirstproject1.Logintest2">
+        <test-method status="PASS" signature="login1()[pri:0, instance:mavenFirstproject1.Logintest2@2669b199]" name="login1" duration-ms="10490" started-at="2021-05-03T11:39:43Z" finished-at="2021-05-03T11:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+      </class> <!-- mavenFirstproject1.Logintest2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
